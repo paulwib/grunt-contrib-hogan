@@ -8,7 +8,7 @@
 
 module.exports = function(grunt) {
 
-  var Hogan = require('hogan.js'),
+  var Hogan = require('hogan-updated/hogan'),
       helpers = require('grunt-lib-contrib').init(grunt);
 
   /**
